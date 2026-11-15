@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & Editor artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs & Temporary files
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Streamlit config / cache
+.streamlit/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+
